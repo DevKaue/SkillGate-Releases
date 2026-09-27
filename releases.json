@@ -5,6 +5,41 @@
     "stable": [],
     "preview": [
       {
+        "version": "0.1.0-preview.2",
+        "publishedAt": "2026-09-27",
+        "signed": false,
+        "artifacts": [
+          {
+            "platform": "windows-x64",
+            "package": "portable-zip",
+            "file": "v0.1.0-preview.2/skillgate-0.1.0-preview.2-windows-x64.zip",
+            "bytes": 31368706,
+            "sha256": "DC42FED9D6EE5616C9C27415F660C5C455E1BD4DEA903208C877D5E36E62A1F6"
+          },
+          {
+            "platform": "linux-x64",
+            "package": "portable-tar-gzip",
+            "file": "v0.1.0-preview.2/skillgate-0.1.0-preview.2-linux-x64.tar.gz",
+            "bytes": 29968166,
+            "sha256": "CDD79AED4A2E5040BB69050B7B23A8C74808B97A1C10978840E65084DCE38366"
+          },
+          {
+            "platform": "linux-amd64",
+            "package": "deb",
+            "file": "v0.1.0-preview.2/skillgate_0.1.0-preview.2_amd64.deb",
+            "bytes": 30066234,
+            "sha256": "1CB09F00EDE45951AA2349207CB501B7B04410879524E2CE08EE9CE4ECD27527"
+          },
+          {
+            "platform": "linux-x86_64",
+            "package": "appimage-type-2",
+            "file": "v0.1.0-preview.2/SkillGate-0.1.0-preview.2-x86_64.AppImage",
+            "bytes": 28375544,
+            "sha256": "861D232793D25828B93AD22F71247DEBDF322B8D2287F3655375D1A9BE4B04C6"
+          }
+        ]
+      },
+      {
         "version": "0.1.0-preview.1",
         "publishedAt": "2026-09-27",
         "signed": false,
