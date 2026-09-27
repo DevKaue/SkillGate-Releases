@@ -1,6 +1,6 @@
 # Politica de release
 
-## Go/no-go
+## Go/no-go estavel
 
 Uma release exige:
 
@@ -30,3 +30,15 @@ vX.Y.Z/
 ```
 
 Artefatos nao verificados nao podem ser expostos como download na landing page.
+
+## Canal preview
+
+Uma preview pode ser publicada sem assinatura, SBOM e instalador quando:
+
+- o canal e a ausencia de assinatura estiverem visiveis antes do download;
+- compilacao, testes unitarios, teste de CLI e smoke test MCP tiverem passado;
+- cada pacote tiver SHA-256 publicado e instrucoes de uso;
+- nenhum secret, credencial ou dado de usuario fizer parte do artefato;
+- o manifesto registrar explicitamente `signed: false`.
+
+Uma preview nunca e promovida automaticamente para `stable`.

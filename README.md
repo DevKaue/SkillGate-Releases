@@ -4,10 +4,13 @@ Este repositorio recebera somente artefatos publicos de release, manifestos, has
 
 Nenhum download deve ser publicado antes de passar pelo processo descrito em `RELEASE_POLICY.md`.
 
-## Plataformas planejadas
+## Canais
 
-- Windows 10/11: instalador por usuario e pacote portavel quando suportado;
-- Linux: AppImage e `.deb` para a primeira release;
-- MCP/CLI: incluidos no mesmo binario do desktop sempre que tecnicamente viavel.
+- `preview`: pacotes portateis para avaliacao, sempre marcados quando ainda nao forem assinados;
+- `stable`: somente artefatos assinados, com SBOM, proveniencia e testes completos de instalacao.
 
-`releases.json` e a fonte legivel por maquina usada pela landing page. Uma entrada so pode ser adicionada depois que o artefato, a assinatura e o hash estiverem disponiveis.
+`releases.json` e a fonte legivel por maquina usada pela landing page. Cada entrada declara plataforma, tamanho, SHA-256 e estado de assinatura.
+
+## Preview atual
+
+`v0.1.0-preview.1` entrega um CLI autossuficiente para Windows x64 e Linux x64, com validador deterministico local e servidor MCP por stdio. Os binarios ainda nao sao assinados e nao devem ser tratados como release estavel.
