@@ -5,6 +5,20 @@
     "stable": [],
     "preview": [
       {
+        "version": "0.2.0-preview.3",
+        "publishedAt": "2026-09-30",
+        "signed": false,
+        "artifacts": [
+          {
+            "platform": "windows-x64",
+            "package": "nsis-installer",
+            "file": "v0.2.0-preview.3/skillgate-0.2.0-preview.3-windows-x64-setup.exe",
+            "bytes": 31619596,
+            "sha256": "FA6D51457845DFCCC3623229C61BAC77F61A0D623223F13B96E4ABA08BAAB694"
+          }
+        ]
+      },
+      {
         "version": "0.2.0-preview.2",
         "publishedAt": "2026-09-30",
         "signed": false,

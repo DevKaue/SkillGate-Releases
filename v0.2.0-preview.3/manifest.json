@@ -1,0 +1,37 @@
+{
+  "schemaVersion": "1.0",
+  "product": "SkillGate",
+  "version": "0.2.0-preview.3",
+  "channel": "preview",
+  "publishedAt": "2026-09-30",
+  "signed": false,
+  "capabilities": [
+    "native Tauri desktop window",
+    "NSIS per-user installer",
+    "built-in usage and MCP guide",
+    "deterministic 13-rule validation",
+    "CLI JSON reports",
+    "MCP stdio server with four tools",
+    "offline processing without an HTTP server"
+  ],
+  "tests": {
+    "buildWarnings": 0,
+    "coreTests": 7,
+    "desktopContractTests": 2,
+    "siteAndPackageTests": 10,
+    "desktopVisualSections": 4,
+    "browserConsoleErrors": 0,
+    "mcpSmoke": true,
+    "nsisBuild": true,
+    "cleanInstallLaunchUninstallSmoke": true
+  },
+  "artifacts": [
+    {
+      "platform": "windows-x64",
+      "package": "nsis-installer",
+      "file": "skillgate-0.2.0-preview.3-windows-x64-setup.exe",
+      "bytes": 31619596,
+      "sha256": "FA6D51457845DFCCC3623229C61BAC77F61A0D623223F13B96E4ABA08BAAB694"
+    }
+  ]
+}
