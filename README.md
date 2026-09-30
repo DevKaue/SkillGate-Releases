@@ -13,4 +13,4 @@ Nenhum download deve ser publicado antes de passar pelo processo descrito em `RE
 
 ## Preview atual
 
-`v0.1.0-preview.2` entrega um CLI autossuficiente para Windows x64 e Linux x64, com validador deterministico local, servidor MCP por stdio e tres formatos para Linux: `.deb`, AppImage e `.tar.gz`. Os binarios ainda nao sao assinados e nao devem ser tratados como release estavel.
+`v0.2.0-preview.1` transforma o SkillGate em uma ferramenta local completa: aplicativo no navegador local, CLI e servidor MCP usando o mesmo motor determinístico. A decisão não usa IA, tarefa ou perfil de executor. Há ZIP para Windows x64 e `.deb`, AppImage e `.tar.gz` para Linux x64. Os binários ainda não são assinados e não devem ser tratados como release estável.

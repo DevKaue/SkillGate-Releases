@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0",
+  "product": "SkillGate",
+  "version": "0.2.0-preview.1",
+  "channel": "preview",
+  "publishedAt": "2026-09-30",
+  "signed": false,
+  "capabilities": [
+    "local browser application",
+    "deterministic 13-rule validation",
+    "CLI JSON reports",
+    "MCP stdio server with four tools",
+    "no AI in validation decisions"
+  ],
+  "tests": {
+    "buildWarnings": 0,
+    "coreTests": 7,
+    "siteAndPackageTests": 9,
+    "browserE2E": true,
+    "mcpSmoke": true,
+    "publishedWindowsBinarySmoke": true,
+    "linuxBuildEnvironment": "Vercel Linux"
+  },
+  "artifacts": [
+    {
+      "platform": "windows-x64",
+      "package": "portable-zip",
+      "file": "skillgate-0.2.0-preview.1-windows-x64.zip",
+      "bytes": 42515890,
+      "sha256": "CCF8A84038882E2E5DAF05804CB4DCD40A54CF0AEC96D09D81D1B3EEA8F85229"
+    },
+    {
+      "platform": "linux-x64",
+      "package": "portable-tar-gzip",
+      "file": "skillgate-0.2.0-preview.1-linux-x64.tar.gz",
+      "bytes": 40432938,
+      "sha256": "3331420B94AA2F75E4A61E7CFB2D0AFC7E2A2FEC1D93E61EA3F7D3D75A63ED9A"
+    },
+    {
+      "platform": "linux-amd64",
+      "package": "deb",
+      "file": "skillgate_0.2.0-preview.1_amd64.deb",
+      "bytes": 40571164,
+      "sha256": "3EEC1FCC28A3B9B259B44C17F4A0227CC0AFEF208444172FD4920E4C6A3965DA"
+    },
+    {
+      "platform": "linux-x86_64",
+      "package": "appimage-type-2",
+      "file": "SkillGate-0.2.0-preview.1-x86_64.AppImage",
+      "bytes": 37894648,
+      "sha256": "50699C4516A1666624B879A48498B9BA1339B3A3165AB3346AE3FC82AD7A7173"
+    }
+  ]
+}
