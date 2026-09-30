@@ -13,4 +13,4 @@ Nenhum download deve ser publicado antes de passar pelo processo descrito em `RE
 
 ## Preview atual
 
-`v0.2.0-preview.1` transforma o SkillGate em uma ferramenta local completa: aplicativo no navegador local, CLI e servidor MCP usando o mesmo motor determinístico. A decisão não usa IA, tarefa ou perfil de executor. Há ZIP para Windows x64 e `.deb`, AppImage e `.tar.gz` para Linux x64. Os binários ainda não são assinados e não devem ser tratados como release estável.
+`v0.2.0-preview.2` entrega um executável único e autossuficiente para Windows x64, sem ZIP ou instalação do .NET. A interface agora inclui as áreas Validar, Como usar e Codex e Claude. Para Linux x64 há `.deb`, AppImage e `.tar.gz`. Os binários ainda não são assinados e não devem ser tratados como release estável.

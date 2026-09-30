@@ -1,0 +1,4 @@
+55f223a6058f9659febd9dc18b61176eb0cfba9c08a8d0410d75f2ccff8d6924  skillgate-0.2.0-preview.2-windows-x64.exe
+03702a29444e9542886a24f8d5695adc7e042d374fdcec311f557777a85aad03  skillgate-0.2.0-preview.2-linux-x64.tar.gz
+aa99ec57ac343f5ec915215689526a13439b367d2565521a46837a3124e3ea69  skillgate_0.2.0-preview.2_amd64.deb
+f873f7d30c1c0cbcbc9f58c9a213cdf5c0d11656a62fed523162db1b56a0bd43  SkillGate-0.2.0-preview.2-x86_64.AppImage
