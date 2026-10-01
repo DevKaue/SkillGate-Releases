@@ -13,7 +13,7 @@ Nenhum download deve ser publicado antes de passar pelo processo descrito em `RE
 
 ## Preview atual
 
-`v0.2.0-preview.4` entrega a interface desktop para Windows e Linux. No Windows, o instalador NSIS abre somente a janela do SkillGate, sem terminal. No Linux, a mesma aplicação está disponível em AppImage e `.deb`. Windows e AppImage participam do canal de atualização assinado.
+`v0.3.0-preview.1` entrega regras configuráveis, perfis locais e relatórios em PDF, Markdown e JSON com cobertura e orientações de correção. No Windows, o instalador NSIS abre somente a janela do SkillGate, sem terminal. No Linux, a mesma aplicação está disponível em AppImage e `.deb`. Windows e AppImage participam do canal de atualização assinado; `.deb` é atualizado pela instalação do pacote novo.
 
 Os binários grandes ficam nos assets do GitHub Releases. Este repositório mantém o catálogo, os hashes, as assinaturas e os metadados verificáveis.
 

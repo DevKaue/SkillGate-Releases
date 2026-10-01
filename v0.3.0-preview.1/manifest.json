@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1.0",
+  "product": "SkillGate",
+  "version": "0.3.0-preview.1",
+  "channel": "preview",
+  "publishedAt": "2026-10-01",
+  "sourceCommit": "5dfb400691f8d09098a6efed143fbc298c8b6ce2",
+  "signed": true,
+  "signatureType": "Tauri updater (Windows and AppImage); not Authenticode",
+  "capabilities": [
+    "13 configurable deterministic default rules",
+    "100 custom literal and required-file rules",
+    "local persistent importable and exportable rule profiles",
+    "PDF Markdown and JSON reports with coverage and remediation",
+    "profile-aware CLI and MCP",
+    "signed automatic updater for Windows and AppImage"
+  ],
+  "artifacts": [
+    {
+      "platform": "windows-x64",
+      "package": "nsis-installer",
+      "file": "SkillGate_0.3.0-preview.1_x64-setup.exe",
+      "bytes": 33050353,
+      "sha256": "394DCE22B5B6091517CE23E7A668FA3363770C1512ADD7822F7F3030FEBE1E79",
+      "signature": "SkillGate_0.3.0-preview.1_x64-setup.exe.sig",
+      "downloadUrl": "https://github.com/DevKaue/SkillGate-Releases/releases/download/skillgate-v0.3.0-preview.1/SkillGate_0.3.0-preview.1_x64-setup.exe"
+    },
+    {
+      "platform": "linux-x64",
+      "package": "appimage",
+      "file": "SkillGate_0.3.0-preview.1_amd64.AppImage",
+      "bytes": 113297912,
+      "sha256": "1F7DB835709E7B79A92A87378724413537B4345ACE1943D4502A0749F80E95E1",
+      "signature": "SkillGate_0.3.0-preview.1_amd64.AppImage.sig",
+      "downloadUrl": "https://github.com/DevKaue/SkillGate-Releases/releases/download/skillgate-v0.3.0-preview.1/SkillGate_0.3.0-preview.1_amd64.AppImage"
+    },
+    {
+      "platform": "linux-amd64",
+      "package": "deb",
+      "file": "SkillGate_0.3.0-preview.1_amd64.deb",
+      "bytes": 35569478,
+      "sha256": "B23F0917D9229BD4A5477340A13F66BA2AB4D8F8D8D6280BAD32420EE5443268",
+      "signed": false,
+      "downloadUrl": "https://github.com/DevKaue/SkillGate-Releases/releases/download/skillgate-v0.3.0-preview.1/SkillGate_0.3.0-preview.1_amd64.deb"
+    }
+  ],
+  "verification": {
+    "pipeline": "https://github.com/DevKaue/SkillGate/actions/runs/36934214018",
+    "deterministicCoreTests": 14,
+    "desktopAndReportTests": 7,
+    "uiWithRealCore": "passed",
+    "pdfVisualInspection": "passed",
+    "updaterSignatureAndTamperRejection": "passed for Windows and AppImage",
+    "nativeGuiManualInspection": "limited by Windows capture timeout",
+    "installedAutomaticUpgrade": "not tested for this release"
+  }
+}

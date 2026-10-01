@@ -1,0 +1,15 @@
+{
+  "version": "0.3.0-preview.1",
+  "notes": "Atualização assinada do SkillGate Desktop.",
+  "pub_date": "2026-10-01T22:29:10.731Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbnBuSVVOTFZJaVpnRFlpcnVwV2VTL1M3UE9wWDVJM1pNTC9zT25hK0lVajhJSWRhKy9UY0E1RzRGV0tlL0lSNnU1cEJVK2lTR05MQThoalpqWjFxbzBWMnJmRmZKQkFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODkzNTc5CWZpbGU6U2tpbGxHYXRlXzAuMy4wLXByZXZpZXcuMV94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4zLjAtcHJldmlldy4xCmpia3cweTZBWWZacjU1VWlzbzAwaWdZeHFHeElYV3ZqSHowcmNVMnYzU0JaOEFsTkl6U0oyRWt2aEJiMm8ydzY5NTZNV1JxS0tJZmVmbDRyMk9FdEFnPT0K",
+      "url": "https://github.com/DevKaue/SkillGate-Releases/releases/download/skillgate-v0.3.0-preview.1/SkillGate_0.3.0-preview.1_x64-setup.exe"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbnBuSVVOTFZJaVVEd1dhcUcvVXErVnpudVpqYVlqNGU3UnV3MlIxbFlRNXFRSnQ5YVBnSnVIaHk5VVhDbjkxL2ZQa3oxVzY0Y1A4WXBmeUlKbEowZjRrUzBRckd3NmdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODkzNzI4CWZpbGU6U2tpbGxHYXRlXzAuMy4wLXByZXZpZXcuMV9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjAuMy4wLXByZXZpZXcuMQpnNU56dnBvYUxsQVkyS3RxbHZMQ1FlSENEMEtqZVpIWm1BWXdnMG40YUVOb0JLYUZNUmliMUtGcTROY2xnNmkxVllNQ0JMdzRSQkRuVGg1R0xRRUdEQT09Cg==",
+      "url": "https://github.com/DevKaue/SkillGate-Releases/releases/download/skillgate-v0.3.0-preview.1/SkillGate_0.3.0-preview.1_amd64.AppImage"
+    }
+  }
+}
