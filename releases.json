@@ -13,8 +13,25 @@
             "platform": "windows-x64",
             "package": "nsis-installer",
             "file": "v0.2.0-preview.4/SkillGate_0.2.0-preview.4_x64-setup.exe",
-            "bytes": 32695923,
-            "sha256": "3D5477386A0ACD9388404F460970691AA09FC091CCD5AC999502CE9CF37887A0"
+            "bytes": 32697243,
+            "sha256": "49933747ECE389785C2D33EF22FD8E77638F3B20C3C0CD90202B5517CF8C3189",
+            "downloadUrl": "https://github.com/DevKaue/SkillGate-Releases/releases/download/skillgate-v0.2.0-preview.4/SkillGate_0.2.0-preview.4_x64-setup.exe"
+          },
+          {
+            "platform": "linux-x64",
+            "package": "appimage",
+            "file": "SkillGate_0.2.0-preview.4_amd64.AppImage",
+            "bytes": 112916984,
+            "sha256": "BB0B3EA511EDA0F2BC72D3393F5C9636795948C7FED86835574389963E07E723",
+            "downloadUrl": "https://github.com/DevKaue/SkillGate-Releases/releases/download/skillgate-v0.2.0-preview.4/SkillGate_0.2.0-preview.4_amd64.AppImage"
+          },
+          {
+            "platform": "linux-amd64",
+            "package": "deb",
+            "file": "SkillGate_0.2.0-preview.4_amd64.deb",
+            "bytes": 35170220,
+            "sha256": "8A82EB675BA4ACED07B7046649BA2B907D8C958C8F9BAA57B73D9F437F9F760E",
+            "downloadUrl": "https://github.com/DevKaue/SkillGate-Releases/releases/download/skillgate-v0.2.0-preview.4/SkillGate_0.2.0-preview.4_amd64.deb"
           }
         ]
       },

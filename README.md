@@ -13,9 +13,9 @@ Nenhum download deve ser publicado antes de passar pelo processo descrito em `RE
 
 ## Preview atual
 
-`v0.2.0-preview.4` entrega um instalador NSIS assinado para o atualizador do Windows x64. O executável usa o subsistema gráfico do Windows, abre somente a janela do SkillGate e consulta automaticamente este canal público.
+`v0.2.0-preview.4` entrega a interface desktop para Windows e Linux. No Windows, o instalador NSIS abre somente a janela do SkillGate, sem terminal. No Linux, a mesma aplicação está disponível em AppImage e `.deb`. Windows e AppImage participam do canal de atualização assinado.
 
-Os pacotes Linux da `v0.2.0-preview.2` continuam disponíveis para CLI e MCP. O pipeline do repositório privado já prepara AppImage e `.deb` assinados; o desktop Linux entrará no canal depois da primeira execução bem-sucedida desse runner.
+Os binários grandes ficam nos assets do GitHub Releases. Este repositório mantém o catálogo, os hashes, as assinaturas e os metadados verificáveis.
 
 ## Canal de atualização
 

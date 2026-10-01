@@ -6,8 +6,9 @@
 - verifica atualizações automaticamente ao iniciar e a cada seis horas;
 - permite verificar manualmente pela barra lateral;
 - baixa e instala atualizações assinadas pelo canal público oficial;
+- entrega a mesma interface desktop no Linux em AppImage e `.deb`;
 - mantém a chave privada somente nos Secrets do repositório privado;
-- adiciona pipeline preparado para Windows e Linux.
+- publica Windows e Linux pelo pipeline multiplataforma.
 
 ## Segurança
 

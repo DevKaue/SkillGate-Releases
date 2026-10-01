@@ -1,11 +1,15 @@
 {
   "version": "0.2.0-preview.4",
-  "notes": "Remove o terminal do Windows e adiciona atualização automática assinada.",
-  "pub_date": "2026-09-30T21:00:00-03:00",
+  "notes": "Atualização assinada do SkillGate Desktop.",
+  "pub_date": "2026-10-01T01:56:12.300Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbnBuSVVOTFZJaVdGSXRmM3BVN3lINjRsRlJhMllNN3NkQW93ZjYvR3cxZWJ0Q29nd1h5OHlJTlVjRzdaOUxrd1hoNjVIWFlwWjcxQW5LMHRHaWYwODA5ZGdJZFhRWkE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODA0Mjc1CWZpbGU6U2tpbGxHYXRlXzAuMi4wLXByZXZpZXcuNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjAtcHJldmlldy40CkxKRXgrNVNvUG1oOFArSHBDL2MxbDhscERSZ3IxUDlRVjF2c01VdmEzbmJFT0o5VzhOK0xVOGJ4c3l4cW5qeU03RTU3L2F5dU94RmJYSlVUdlZpdkRnPT0K",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbnBuSVVOTFZJaVI4c2tWSnBIVHhOeGE3TjBiZHhFWVJsdFFaOEpETHhzd21qcEsvZ3lRNHdJUHFza0hMWTJhbVY5Zk0wbVhOZng1UEdGV1d0VnFIbzNHSmVJV1J1TVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODE5NjE1CWZpbGU6U2tpbGxHYXRlXzAuMi4wLXByZXZpZXcuNF94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4yLjAtcHJldmlldy40CmwwV3RyS28rZy9hTldQeFVXQVphUmpibzgrNm9wZ3RBQjNrQ3R4bUNiYkNjalBaamFCeFo4WmdTZlBBTDhFZnp5MVpLWW1KdkN4YThZa0ZySDNub0RnPT0K",
       "url": "https://github.com/DevKaue/SkillGate-Releases/releases/download/skillgate-v0.2.0-preview.4/SkillGate_0.2.0-preview.4_x64-setup.exe"
+    },
+    "linux-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSbnBuSVVOTFZJaWJUQjA3QWxNSS9lVUxCZXVTUk9WWDRBdytlR1laWWRiT2l4Nm9QbHk2aUJJbmJzOEk5elpvZjVoZ1BhOXdDQm9jYWdsNHRPUC94aEJlSDVRdVBhZEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwODE5NTM4CWZpbGU6U2tpbGxHYXRlXzAuMi4wLXByZXZpZXcuNF9hbWQ2NC5BcHBJbWFnZQl2ZXJzaW9uOjAuMi4wLXByZXZpZXcuNApKejdLVlUxdkF5UG1zN215NE9rVThaZjZZRXZPTGdqb2lTQy9DM0VtQVhNcFhXc1pkdlVaazNLMkpMVnlUNHdQMkNObGhYTTdGRmp4WmZlVHBYUHRDdz09Cg==",
+      "url": "https://github.com/DevKaue/SkillGate-Releases/releases/download/skillgate-v0.2.0-preview.4/SkillGate_0.2.0-preview.4_amd64.AppImage"
     }
   }
 }
