@@ -1,3 +1,3 @@
-49933747ece389785c2d33ef22fd8e77638f3b20c3c0cd90202b5517cf8c3189  SkillGate_0.2.0-preview.4_x64-setup.exe
-8a82eb675ba4aced07b7046649ba2b907d8c958c8f9baa57b73d9f437f9f760e  SkillGate_0.2.0-preview.4_amd64.deb
-bb0b3ea511eda0f2bc72d3393f5c9636795948c7fed86835574389963e07e723  SkillGate_0.2.0-preview.4_amd64.AppImage
+3ce59dadc7e02e7177698fbbeca7f07454ddba684dc3fbe775144678e38eb72c  SkillGate_0.2.0-preview.4_x64-setup.exe
+5157977539f0eebc2dc00620063e17076c7c61e731c8b0c9d9957d3eccd7881c  SkillGate_0.2.0-preview.4_amd64.deb
+2d838d5a61181496fc674060a93aa651ffcb5960b9f2351ee5a8b21593853d13  SkillGate_0.2.0-preview.4_amd64.AppImage
