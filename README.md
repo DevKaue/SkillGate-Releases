@@ -13,6 +13,12 @@ Nenhum download deve ser publicado antes de passar pelo processo descrito em `RE
 
 ## Preview atual
 
-`v0.2.0-preview.3` entrega um instalador NSIS para Windows x64 com aplicativo Tauri, janela própria e motor determinístico incorporado. Não abre navegador, não inicia servidor local e não exige instalação do .NET. A interface inclui as áreas Validar, Como usar, Codex e Claude e Sobre. Os binários ainda não são assinados e não devem ser tratados como release estável.
+`v0.2.0-preview.4` entrega um instalador NSIS assinado para o atualizador do Windows x64. O executável usa o subsistema gráfico do Windows, abre somente a janela do SkillGate e consulta automaticamente este canal público.
 
-Os pacotes Linux da `v0.2.0-preview.2` continuam disponíveis para CLI e MCP. O desktop Tauri para Linux será publicado somente depois de ser gerado e testado em ambiente Linux.
+Os pacotes Linux da `v0.2.0-preview.2` continuam disponíveis para CLI e MCP. O pipeline do repositório privado já prepara AppImage e `.deb` assinados; o desktop Linux entrará no canal depois da primeira execução bem-sucedida desse runner.
+
+## Canal de atualização
+
+Este repositório é o destino público do pipeline do repositório privado SkillGate. Cada release desktop assinada publica instaladores, assinaturas e `latest.json`. O aplicativo consulta `releases/latest/download/latest.json` e só instala pacotes cuja assinatura corresponda à chave pública incorporada.
+
+Nenhuma chave privada, token de publicação ou código-fonte privado deve ser armazenado aqui.
